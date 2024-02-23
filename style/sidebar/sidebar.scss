@@ -1,0 +1,35 @@
+.sidebar{
+    background-color:rgba(0, 0, 0, 0.626);
+    max-width: 30%;
+    height: 100vh;
+    h2{
+        color:#fff;
+        font-size: 24px;
+        text-transform: capitalize;
+        font-family: serif;
+        margin-left: 10px;
+        
+    }
+    .sidebar__links{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        gap: 15px;
+        .sidebar-link{
+            color:#fff;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 15px 150px;
+           border: radius 10px;
+
+           
+        }
+   }
+}
+.sidebar-link:hover{
+    background-color: rgb(108, 139, 139);
+    padding: 15px 150px;
+    border-radius:10px;
+    
+}

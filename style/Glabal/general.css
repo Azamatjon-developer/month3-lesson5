@@ -1,0 +1,37 @@
+@import url(../Main/main.css);
+@import url(../Navbar/navbar.css);
+@import url(../sidebar/sidebar.css);
+@import url(../button/button.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.general {
+  display: flex;
+  max-width: 110%;
+}
+.general .general__left {
+  background-color: rgba(0, 0, 0, 0.626);
+  width: 80%;
+  height: 10vh;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: blueviolet;
+}
+.box a {
+  display: block;
+  padding: 15px 30px;
+  background-color: rgba(17, 40, 141, 0.816);
+  border-radius: 10px;
+  font-size: 24px;
+  color: #fff;
+  gap: 20px;
+}/*# sourceMappingURL=general.css.map */
